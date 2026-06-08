@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env
+
+env/
+.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GitHub Actions artifacts
+*.log
