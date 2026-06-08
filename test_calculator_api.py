@@ -10,9 +10,7 @@ import json
 from typing import Dict, Any
 
 # Configuration
-HOSTNAME = os.getenv("HOST_NAME")
-PORT = 3000
-BASE_URL = f"http://{HOSTNAME}:{PORT}/v1"
+BASE_URL = f"http://fakehost.com/v1"
 
 # Test cases
 test_cases = [
