@@ -29,9 +29,7 @@ jobs:
       with:
         port: '8080'
         is_provider: ${{ vars.IS_PROVIDER }}
-        path_to_api_spec: ${{ vars.PATH_TO_API_SPEC }}
         backend_url: ${{ vars.BACKEND_URL }}
-        host_name: ${{ vars.HOST_NAME }}
 
     - name: Run Calculator API tests
       run: |
